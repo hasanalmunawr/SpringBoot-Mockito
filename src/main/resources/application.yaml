@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/my_db
+    username: postgres
+    password: badiro12
+    driver-class-name: org.postgresql.Driver
+    dbcp2:
+      default-auto-commit: false
+  jpa:
+    hibernate:
+      ddl-auto: create
+    open-in-view: false
